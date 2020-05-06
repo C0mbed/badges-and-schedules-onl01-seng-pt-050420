@@ -13,7 +13,8 @@ def badge_maker(name)
 end
 
 def assign_rooms(speakers)
-  7.times do
+  counter = 1
+  while counter<8 do
     
   end
 end
