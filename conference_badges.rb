@@ -22,6 +22,6 @@ def assign_rooms(speakers)
   return assignment
 end
 
-def printer
-  puts assign_room(attendendees) 
+def printer(print_me)
+  puts print_me
 end
