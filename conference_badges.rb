@@ -21,3 +21,5 @@ def assign_rooms(speakers)
   end
   return assignment
 end
+
+def conference_badges
