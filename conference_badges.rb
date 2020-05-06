@@ -11,3 +11,9 @@ end
 def badge_maker(name) 
   return "Hello, my name is #{name}."
 end
+
+def assign_rooms(speakers)
+  7.times do
+    
+  end
+end
