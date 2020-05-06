@@ -18,6 +18,7 @@ def assign_rooms(speakers)
   speakers.each do |speaker|
     room_speaker_list = "Hello, #{speaker}! You'll be assigned to room #{room_num}!"
     assignment << room_speaker_list
+    room_num+=1
   end
   return assignment
 end
