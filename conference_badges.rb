@@ -22,4 +22,6 @@ def assign_rooms(speakers)
   return assignment
 end
 
-def conference_badges
+def printer
+  puts assign_room(attendendees) 
+end
