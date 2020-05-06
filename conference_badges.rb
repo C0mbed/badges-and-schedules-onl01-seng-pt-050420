@@ -13,8 +13,11 @@ def badge_maker(name)
 end
 
 def assign_rooms(speakers)
-  counter = 1
-  while counter<8 do
-    
+  assignment = []
+  room_num = 1
+  speakers.each do |speaker|
+    room_speaker_list = "Hello, #{speaker}! You'll be assigned to room #{room_num}."
+    assignment << room_speaker_list
   end
+  return assignment
 end
