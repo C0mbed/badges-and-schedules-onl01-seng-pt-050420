@@ -29,5 +29,7 @@ def printer(attendees)
   first.each do |result|
     puts result
   end
-  puts second[0]
+  second.each do |second_result|
+    puts second_result
+  end
 end
